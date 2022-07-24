@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellType3" rowHeight="112" id="KGk-i7-Jjw" customClass="CellType3" customModule="iOSTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="6Ax-9W-HeS">
+                        <rect key="frame" x="16" y="0.0" width="288" height="92"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="FAm-6A-OuG">
+                                <rect key="frame" x="0.0" y="4" width="88" height="84"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDa-SM-vMH">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="fJu-3k-mOm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Detail">
+                                            <color key="titleColor" red="0.29803921568627451" green="0.54509803921568623" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukk-Wm-AJ0">
+                                        <rect key="frame" x="0.0" y="48" width="88" height="36"/>
+                                        <color key="backgroundColor" red="0.50980392156862742" green="0.76470588235294112" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="FmJ-cV-e5B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Beli">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Mr7-68-5CT">
+                                <rect key="frame" x="100" y="4" width="88" height="84"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwY-MF-yxn">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="LUN-1v-SyT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Detail">
+                                            <color key="titleColor" red="0.29803921568627451" green="0.54509803921568623" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eph-Dz-nzP">
+                                        <rect key="frame" x="0.0" y="48" width="88" height="36"/>
+                                        <color key="backgroundColor" red="0.50980392156862742" green="0.76470588235294112" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="Xl0-4M-84y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Beli">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="AO3-Xi-Vza">
+                                <rect key="frame" x="200" y="4" width="88" height="84"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpm-By-unO">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="0Ve-rs-yB3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Detail">
+                                            <color key="titleColor" red="0.29803921568627451" green="0.54509803921568623" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nee-G7-Qrv">
+                                        <rect key="frame" x="0.0" y="48" width="88" height="36"/>
+                                        <color key="backgroundColor" red="0.50980392156862742" green="0.76470588235294112" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="NYh-ba-TMT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Beli">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6Ax-9W-HeS" secondAttribute="bottom" constant="20" id="A2t-79-EOD"/>
+                    <constraint firstItem="6Ax-9W-HeS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="EBb-fj-y7O"/>
+                    <constraint firstAttribute="trailing" secondItem="6Ax-9W-HeS" secondAttribute="trailing" constant="16" id="M3S-ns-cz8"/>
+                    <constraint firstItem="6Ax-9W-HeS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WO8-Q8-1lw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="beli1" destination="ukk-Wm-AJ0" id="bjs-5Q-JP7"/>
+                <outlet property="beli2" destination="Eph-Dz-nzP" id="nhh-re-quh"/>
+                <outlet property="beli3" destination="Nee-G7-Qrv" id="Osf-vg-v05"/>
+                <outlet property="detail1" destination="zDa-SM-vMH" id="xgJ-19-xzc"/>
+                <outlet property="detail2" destination="FwY-MF-yxn" id="Duh-BP-bKn"/>
+                <outlet property="detail3" destination="hpm-By-unO" id="emf-La-kt7"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
